@@ -2,11 +2,18 @@ package org.example.app;
 
 public class BinarySearch{
 
+    //  create a class for binary search
+
         public static int binarySearch ( int[] array, int target){
+            //  variable left
             int left = 0;
+
+            //  variable right
             int right = array.length - 1;
 
             while (left <= right) {
+
+                // find mid-point
                 int mid = left + (right - left) / 2;
 
                 if (array[mid] == target) {
