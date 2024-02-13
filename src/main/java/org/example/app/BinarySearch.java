@@ -1,5 +1,6 @@
 package org.example.app;
 
+//  TODO: BS ALGORITHM
 public class BinarySearch{
 
     //  create a class for binary search
@@ -28,14 +29,14 @@ public class BinarySearch{
             return -1; // Target not found
         }
 
-        public static void main (String[]args) {
+        public static void main (String[] args) {
             int[] sortedArray = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
             int target = 7;
 
             int result = binarySearch(sortedArray, target);
 
             if (result != -1) {
-                System.out.println("Element found at index: " + result);
+                System.out.println("\n\nElement found at index: " + result);
             } else {
                 System.out.println("Element not found in the array.");
             }
